@@ -28,16 +28,14 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
-  
+  return str; 
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  sum= x + y;
- return sum;  
+ return x+y;  
 }
 
 function resta(x, y) {
@@ -45,7 +43,6 @@ function resta(x, y) {
   // Tu código:
   resta = x-y;
   return resta;
-  
 }
 
 function multiplica(x, y) {
@@ -86,8 +83,6 @@ function tienenMismaLongitud(str1, str2) {
  else{
    return false;
  }
-
-
 }
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -99,7 +94,6 @@ function menosQueNoventa(num) {
   else{
     return false;
   }
-  
 }
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -118,7 +112,6 @@ function obtenerResto(x, y) {
   // Tu código:
   elResto = x % y;
   return elResto
-  
 }
 
 function esPar(num) {
@@ -155,9 +148,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
- 
   return num*num*num;
-
 }
 
 function elevar(num, exponent) {
@@ -202,7 +193,6 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-
   return str + "!"; 
 }
 
@@ -256,7 +246,6 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
   if (letra==="a"||letra==="e"||letra==="i"||letra==="o"||letra==="u") {
     return "Es vocal";
   }else if(letra.length>0){
@@ -265,7 +254,6 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
 }
-
 
 
 // No modificar nada debajo de esta línea
